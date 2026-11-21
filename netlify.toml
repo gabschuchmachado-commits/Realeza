@@ -1,0 +1,9 @@
+[build]
+  # This site consists of static files and needs no build command.
+  command = ""
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/algo.html"
+  status = 200
